@@ -37,7 +37,7 @@ fi
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$CM_ROOT" true
 
 # Copyright headers and common guards
-write_headers "m8 m8d"
+write_headers "b2wlj b2ul"
 
 write_makefiles "$MY_DIR"/common-proprietary-files.txt
 

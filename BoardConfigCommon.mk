@@ -30,10 +30,10 @@
 -include device/htc/msm8974-common/BoardConfigCommon.mk
 
 # Assertions
-TARGET_BOARD_INFO_FILE ?= device/htc/m8-common/board-info.txt
+TARGET_BOARD_INFO_FILE ?= device/htc/b2wlj-common/board-info.txt
 
 # Includes
-TARGET_SPECIFIC_HEADER_PATH += device/htc/m8-common/include
+TARGET_SPECIFIC_HEADER_PATH += device/htc/b2wlj-common/include
 
 # Camera
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
@@ -45,10 +45,10 @@ BOARD_NFC_HAL_SUFFIX := msm8974
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += device/htc/m8-common/sepolicy
+BOARD_SEPOLICY_DIRS += device/htc/b2wlj-common/sepolicy
 
 # Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := device/htc/m8-common/releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/htc/b2wlj-common/releasetools
 
 # Inherit from the proprietary version
--include vendor/htc/m8-common/BoardConfigVendor.mk
+-include vendor/htc/b2wlj-common/BoardConfigVendor.mk

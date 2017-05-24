@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter m8 m8d,$(TARGET_DEVICE)),)
+ifneq ($(filter b2wlj b2wlj,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
